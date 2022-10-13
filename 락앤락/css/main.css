@@ -1,0 +1,62 @@
+/* main.css */
+
+/*font-family: "Roboto", "NotoSans", sans-serif;*/
+#header{height: 60px;}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    transition: cubic-bezier(0.25, 0.45, 0.5, 1);}
+
+    .header__pad {
+        display: flex;
+        justify-content: center;
+        height: 100%;}
+#container{width: 100%;}
+.content1{width: 100%;
+color: #101820;}
+.content2{
+    position: relative;
+    width: 100%;}
+.gnb{
+    width: 60%;
+    max-width: 490px;
+}
+.gnb{
+    display: none;
+    position: fixed;
+    top: 60px;
+    left: 0;
+    right: 0;
+    bottom: 60px;
+}
+.footer {
+    overflow: hidden;
+    padding-top: 4rem;
+    border-top: 1px solid rgba(16, 24, 32, 0.2);
+    color: #54565B;
+    font-family: "Roboto", "NotoSans", sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.4;
+}
+/* 로고 */
+h1.logo{position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display: inline-block;}
+
+    /* 탑메뉴 */
+    dl.topMenu{display: none;}
+    /* 주메뉴 */
+    nav.gnb>ul{display: none;}
+    /* 햄버거 버튼 */
+    div.mobBtn{z-index: 1;display: inline-block;position: absolute;right: -13px; top: 0px;}
+
+    /* 닫기버튼 */
+div.mobBtn_close{z-index: 1;position: absolute;right: -13px;height: 64px;}
+div.mobBtn_close.on{}
+div.mob h2{background: #fff; color: #fff;font-size: ;}
+
